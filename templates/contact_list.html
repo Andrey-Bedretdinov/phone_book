@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for contact in contacts %}
+    <p>
+        Фамилия: {{ contact.last_name }}<br>
+        Имя: {{ contact.first_name }}<br>
+        Отчество: {{ contact.middle_name }}<br>
+        Улица: {{ contact.street }}<br>
+        Дом: {{ contact.building_number }}<br>
+        Корпус: {{ contact.building_unit }}<br>
+        Квартира: {{ contact.apartment }}<br>
+        Телефон: {{ contact.phone }}
+    </p>
+{% endfor %}
+
+</body>
+</html>
