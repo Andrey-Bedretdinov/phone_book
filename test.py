@@ -57,3 +57,4 @@ for contact_data in additional_contacts_data:
     )
 
 print("Контакты успешно добавлены.")
+
